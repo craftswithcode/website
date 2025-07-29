@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root {
+            --f-clr: rgb(104, 130, 216);
+            --s-clr: pink;
+            --t-clr: rgb(223, 186, 118);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+           display: inline-flex;
+        }
+        .head1{
+            height:30px ;
+            width: 100%;
+            color:  rgb(104, 130, 216);
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          padding: 5px;
+
+
+          }
+          .tab{
+            display: flex;
+            flex-wrap: wrap;
+            width: 400px;
+            padding: 5px;
+            justify-content: space-around;
+          }
+          .head2{
+            height: 200px;
+            width: 100%px;
+            background-image: linear-gradient(to bottom, skyblue, rgb(84, 110, 199));
+            border-radius: 20px;
+            color: rgb(230, 245, 248);
+            margin-left: 5px;
+          
+          } 
+          .h12{
+            padding-top: 60px;
+            text-align: center;
+
+          }
+          .head2 p{
+            text-align: center;
+            padding-top: 0px;
+            padding-left: 150px;
+
+          }
+           .tab li:hover {
+            color: skyblue;
+        }
+        .top h3 {
+            color: rgb(104, 130, 216);
+            padding: 5px;
+        }
+        .top{
+            padding: 15px;
+            
+        }
+        .dv1 {
+            width: 80%px;
+            height: 650px;
+            border: 2px solid rgb(221, 217, 217);
+            border-radius: 20px;
+            margin: 10px;
+            flex-wrap: wrap;
+        }
+        .imgp img{
+            width: 110px;
+            height: 80px;
+            border: 1px solid black;
+        }
+       .top1{
+            padding: 10px;
+       }
+        .top1 h3 {
+            color: rgb(104, 130, 216);
+            padding: 5px;
+            background-color: rgb(224, 229, 248);
+            border-radius: 5px;
+
+        }
+
+        .imgp {
+            padding: 10px;
+            display: flex;
+        }
+
+        .imgp p {
+            padding: 5px;
+            padding-bottom: 10px;
+        }
+
+        .top1 a {
+            padding-left: 0px;
+        }
+
+        .paraa {
+            padding: 10px;
+        }
+
+        .dv2 {
+            width: 20%px;
+            height: 650px;
+            border: 2px solid rgb(221, 217, 217);
+            border-radius: 20px;
+            margin: 10px;
+            flex-wrap: wrap;
+        }
+
+        .sidebar {
+            width: 340px;
+            height: 300px;
+            display: flex;
+            justify-content: center;
+
+            font-size: large;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 20px;
+            height: 200px;
+            width: 330px;
+            flex-wrap: wrap;
+
+        }
+
+        .sidebar a {
+            height: 40px;
+            width: 200px;
+            /* background-color: rgb(237, 248, 252); */
+            /* border-left: 4px solid rgb(185, 184, 184); */
+        }
+
+
+        .sidebar li {
+            height: 40px;
+            width: 300px;
+            background-color: rgb(245, 249, 250);
+            border-left: 4px solid rgb(185, 184, 184);
+            margin-bottom: 1px;
+            padding: 5px;
+        }
+          .contact1 {
+            height: 110px;
+            width: 300px;
+            margin-top: 40px;
+            margin-left: 20px;
+            margin-bottom: 0px;
+            padding: 10px;
+            background-color: rgb(243, 240, 240);
+            border-radius: 5px;
+            border: 1px solid rgb(179, 177, 177);
+            flex-wrap: wrap;
+        }
+
+        .contact2 {
+            height: 110px;
+            width: 300px;
+            margin-top: 0px;
+            margin-left: 20px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            padding: 10px;
+            background-color: rgb(243, 240, 240);
+            border-radius: 5px;
+            border: 1px solid rgb(179, 177, 177);
+            flex-wrap: wrap;
+        }
+             @media (max-width:970px){
+           .main{
+            display: block;
+           }
+            .dv1{
+                width: 100%;
+                height: 950px;
+            }
+
+          }
+          @media (max-width:450px){
+            .head2{
+                height: 130px;
+            }
+            .h12{
+                padding-top:20px;
+            }
+            .dv1{
+                height: 1200px;
+                width: 100%;
+            }
+            .dv2{
+                height: 750px;
+                 width: 100%; 
+            }
+            .top1 img {
+            width: 80px;
+            height: 80px;
+            border: 1px solid black;
+
+        }
+        .imgp{
+            margin: 5px;
+            display: inline;
+            justify-content: center;
+        }
+        .imgp {
+            justify-content: center;
+            padding: 2px;
+        }
+        .top1 h3{
+            margin: 5px;
+        }
+        /* .sidebar{
+            height: 240px;
+            width: 270px;
+        } */
+        /* .contact1{
+            width: 270px;
+            height: 80px ;
+        }
+        .contact2{
+            width: 270px;
+            height:80px ;
+        } */
+           
+          }
+          @media (max-width:290){
+            .main{
+                height: 2500px;
+            }
+            .dv1{
+                height:1350px ;
+            } 
+            .dv2{
+                height:950px ;
+            }
+           }
+         
+        .uno a:hover {
+            color: skyblue;
+        }
+
+        .aa:hover {
+            color: skyblue;
+        }
+
+      
+
+        .contact1 h4 {
+            height: 30px;
+
+        }
+
+        .contact1 a:hover {
+            color: skyblue;
+        }
+
+        .contact2 h4 {
+            height: 30px;
+
+        }
+
+        
+
+       
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="head1">
+            <ul class="tab">
+                <li>Website Template</li>
+                <li>Flash template</li>
+                <li>Company</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="head2">
+            <h1 class="h12">Free CSS Template</h1>
+            <br>
+            <p>by template.com</p>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+                <div class="dv1">
+                    <div class="top">
+                        <h3>Free css Website layout</h3>
+                        <p>This free website is provided by <a class="ancher"
+                                style="color: rgb(122, 172, 219);">template.com</a> Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Nemo culpa autem deserunt reprehenderit officiis laboriosam
+                            quae earum iure nobis cupiditate doloribus nihil mollitia quidem consequuntur, totam
+                            ducimus, repellat corporis repellendus!</p>
+                        <br>
+                        <p>Lorem ipsum, dolor sit <a class="ancher" style="color:rgb(122, 172, 219) ;">template.com</a>
+                            amet consectetur adipisicing elit. Ab est quibusdam cupiditate et facere odio autem animi
+                            aliquam, quod repellat voluptate, debitis, rem soluta neque sequi distinctio pariatur nulla
+                            similique.</p>
+                    </div>
+                    <div class="top1">
+                        <h3> New Website Design</h3>
+                        <div class="imgp">
+                            <img src="flower1.webp" alt="">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe amet similique, vel quasi
+                                quod rerum mollitia quaerat earum magnam illo sapiente cupiditate rem doloremque
+                                accusantium. Doloreique, vel quasi quod rerum mollitia quaerat earum magnam illo
+                                sapiente cupiditate rem doloremque accusantium. Dolores ratione nulla soluta dolorem.
+                            </p>
+
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore dolore officiis quas
+                            accusamus, dolorum facilis fugiat itaque architecto eum nemo delectus error natus neque
+                            atque animi voluptatum eos. Soluta, molestiae.
+                        </p>
+                        <p class="paraa" style="color: rgb(219, 218, 218);">desiged by html and css<a class="ancher" href="" style="color: rgb(122, 172, 219);">by template.com</a></p>
+                    </div>
+                    <div class="top1">
+                        <h3>New Flash Player
+                        </h3>
+                        <div class="imgp">
+                            <img src="flower2.webp" alt="">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi fugit nam esse asperiores
+                                dolorem obcaecati ut ratione distinctio nostrum ad minus iste mollitia, ea dolore
+                                repellat at eligendi totam doloremque.
+                                Suscipit sint eveniet, facilis veniam eos maxime culpa maiores recusandae, accusamus
+                                eius, modi iste cum eligendi architecto quae quis possimus magnam cupiditate optio velit
+                                temporibus perspiciatis. Debitis cupiditate ratione placeat.</p>
+                        </div>
+                    </div>
+                </div>
+           
+                <div class="dv2">
+                    <div class="sidebar">
+                        <ul>
+                            <li><a class="aa" style="color: rgb(122, 172, 219);">Homepage</a></li>
+                            <li><a class="aa" style="color: rgb(122, 172, 219);">CSS Website</a></li>
+                            <li><a class="aa" style="color: rgb(122, 172, 219);">Web Designe</a></li>
+                            <li><a class="aa" style="color: rgb(122, 172, 219);">Specialized</a></li>
+                            <li><a class="aa" style="color: rgb(122, 172, 219);">Our partner</a></li>
+                            <li><a class="aa" style="color: rgb(122, 172, 219);">Jobs</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact1">
+                        <h4>Quick contact</h4>
+                        <p>cell: 000-000-000</p>
+                        <p>facebook:0000-0000-0</p>
+                        <p>Link:<a href="template.com">www.template.com</a></p>
+                    </div>
+                    <div class="contact2">
+                        <h4>More about website</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui voluptate minus molestiae,
+                            nihil, praesen distinctio sit.</p>
+
+                    </div>
+                </div>
+        </div>
+    </main>
+</body>
+
+</html>
